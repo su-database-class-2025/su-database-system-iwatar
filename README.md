@@ -31,3 +31,5 @@ Dockerコンテナを停止するには、起動する際に用いたローカ�
 docker compose stop
 ```
 もしくは、Docker extensionより、 `docker-posrgresql-postgis-osm` を右クリックし、`Compose stop`を実行する。
+
+ちょってテスト
