@@ -1,2 +1,3 @@
-SELECT count(*) FROM city
-    ORDER BY country_id;
+SELECT country_id,count(*) AS country_num FROM city
+    GROUP BY country_id
+    ORDER BY country_num DESC,country_id ASC;
